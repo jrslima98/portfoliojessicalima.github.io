@@ -1,0 +1,132 @@
+
+			/*header style*/
+.nav{position: fixed;
+			text-align: right;
+			height: 14px;
+			line-height: 14px;
+			right: 0px;
+			top: 0px;
+			width:256px;
+			
+		}
+		.menu{	color: #707070;
+				box-shadow: -1px 2px 30px;
+				padding-top: 46px;
+				margin: 0;height: 600px;
+				background: #ffffff;
+			}
+
+		.menu a{ display: block;
+			font: bold normal 20px/20px Akzidenz-Grotesk BQ Extra Conde;
+				letter-spacing: 0px;
+				color: #000000BF;
+				opacity: 1;
+				text-decoration: none;
+				line-height: 28px;
+				margin: 0 57px;
+				clear: right;
+		}
+
+
+		label{ margin:0 40px 0 0;
+		font-size: 26px;
+		line-height: 70px;
+		display: none;
+		width: 26px;
+		float: right;
+		
+		}
+
+			/*body style*/
+				
+			.title{position: relative;
+			top: 6vw;
+			letter-spacing:0px;
+			font: Bold 40px/40px Akzidenz-Grotesk BQ Extra Conde;
+			letter-spacing: 0px;
+			color: #000000;
+			opacity: 1;}
+			h1{left: 30vw;}
+
+			.text{
+				position:relative;
+				top: 10vw;
+			left: 5vw;
+			width: 65vw;
+			letter-spacing: 0px;
+			font: 300 20px/23px Akzidenz-Grotesk BQ with;
+			letter-spacing: 0px;
+			color: #00000080;
+			opacity: 1;}
+
+			.video{position:relative;
+			width: 100vh;
+			top: 14vw;
+			left: 15vw;
+			}
+
+
+				/*responsive*/
+
+			@media screen and (min-width: 1024px) and (max-width: 1332px){
+				.nav{width: 256px}
+				.title{font: Bold 32px/34px Akzidenz-Grotesk BQ Extra Conde;}
+				h1{left: 30vw;}
+				.text{width: 65vw;}
+				.video{left: 7vw; width: 55vw}
+			
+			}
+				
+				@media screen and (min-width: 769px) and (max-width: 1024px){
+				.nav{width: 196.61px;}
+				#assinatura{right: 97.54px;width: 92px; top:306.80px;}
+				.menu a{right: 20px; margin: 0 40px;}
+				.title{font: Bold 30px/32px Akzidenz-Grotesk BQ Extra Conde;}
+				h1{left: 28vw;}
+				.text{width: 65vw; font: 300 20px/22px Akzidenz-Grotesk BQ with;}
+				.video{left: 6vw; }
+			}
+			
+
+			@media screen and (min-width: 600px) and (max-width: 769px){
+				.nav{width: 177.60px}
+				.menu a{font: bold normal 19px/19px Akzidenz-Grotesk BQ Extra Conde;margin: 0 31px;line-height: 27px;}
+				#assinatura{right: 82.23px; width: 87px; top:322.30px;}
+				.title{font: Bold 26px/28px Akzidenz-Grotesk BQ Extra Conde;;}
+				.text{width: 60vw; font: 300 17px/19px Akzidenz-Grotesk BQ with;}
+		
+				h1{left: 26vw;}
+				.video{left: 5vw; width: 60vw }
+
+				
+			}
+
+			@media screen and (min-width: 501px) and (max-width: 600px)
+			{.nav{width: 147.60px}
+			.menu a{font: bold normal 19px/19px Akzidenz-Grotesk BQ Extra Conde; line-height: 27px;margin: 0 26px;}
+				#assinatura{right: 57.11px;width: 79px;top: 349.10px}
+				.title{font: Bold 24px/26px Akzidenz-Grotesk BQ Extra Conde;}
+				.text{width: 60vw;  font: 300 16px/18px Akzidenz-Grotesk BQ with;}
+				h1{left: 24vw;}
+				.video{left: 4vw; width: 62vw }
+				
+
+			
+			}
+
+			@media screen and (max-width:500px){
+				#assinatura{position: fixed;right: 5%;top: 70px;width: 20%}
+			
+			label{display: block;align-content: right;right: 5%;color: #909090}
+			.nav{width: 100%}
+			.menu{ text-align: center; display: none; padding-top: 70px; }
+			.menu a { display: block;font: bold normal 22px/22px Akzidenz-Grotesk BQ Extra Conde;background: #ffffff;border-bottom: 1px solid #ffffff;margin:0;line-height: 70px; }
+			.satiras{padding-top: 55px}
+			#toggle:checked + .menu{display: block;}
+			.title{font: Bold 22px/24px Akzidenz-Grotesk BQ Extra Conde; }
+			h1{left: 24vw;}
+		.text{width: 60vw; font: 300 16px/18px Akzidenz-Grotesk BQ with; }
+		.video{left: 4vw; width: 65vw }
+			
+			}
+			

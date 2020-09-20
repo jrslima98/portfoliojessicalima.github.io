@@ -1,0 +1,229 @@
+
+			/*header style*/
+
+	
+		.nav{position: fixed;
+			text-align: right;
+			height: 14px;
+			line-height: 14px;
+			right: 0px;
+			top: 0px;
+			width: 256px;
+			
+		}
+		.menu{	color: #707070;
+				box-shadow: -1px 2px 30px;
+				padding-top: 46px;
+				margin: 0;height: 600px;
+				background: #ffffff;
+			}
+
+		.menu a{ display: block;
+			font: bold normal 20px/20px Akzidenz-Grotesk BQ Extra Conde;
+				letter-spacing: 0px;
+				color: #000000BF;
+				opacity: 1;
+				text-decoration: none;
+				line-height: 28px;
+				margin: 0 57px;
+				clear: right;
+		}
+
+
+		label{ margin:0 40px 0 0;
+		font-size: 26px;
+		line-height: 70px;
+		display: none;
+		width: 26px;
+		float: right;
+		
+		}
+
+		#assinatura{
+				position: fixed;
+				top: 290px;
+				right: 127px;
+				width: 100px;}
+
+
+		#toggle {display: none;}
+
+		.satiras{padding-top: 22px;}
+			
+			
+
+			.idiomas{position: absolute;
+				top: 0px;
+				left: 138px;
+				}
+
+
+			
+
+			.idiomas li{position: relative;
+				display: inline-block;
+				font: bold 12px/12px Akzidenz-Grotesk BQ with;
+				letter-spacing: 0px;
+				color: #00000080;
+				letter-spacing: 0px;
+				padding: 7px;
+				margin-top: 15px;
+				
+			}
+			.idiomas li:hover{
+				color: #000000;
+			}
+
+
+
+			
+
+			/*body style*/
+			#Apresentação{
+				position: fixed;
+				top: 200px;
+				left: 138px;
+				width: 378px;
+				height: 600px;
+				font: lighter 35px/44px Akzidenz-Grotesk BQ with;
+				letter-spacing: 0px;
+				color: #00000080;
+				opacity: 1;}
+
+			#autorretrato{
+				position: fixed;
+				top:50px;
+				left: 522px;
+				width:413.021px;
+				margin: auto;
+			}
+
+
+			/* footer style*/
+
+			.social{
+				position: fixed;
+				left: 61px;
+				bottom: 0px;
+				display: flex;
+				transform: translate(0,250px);
+				
+				
+			}
+
+			.media{
+
+				color: #000000;
+				background: #ffffff;
+				font-size: 20px;
+				text-decoration: none;
+				height: 300px;
+				border-radius:50px;
+				box-shadow:  -1px 2px 10px;
+				transition: 1s ease-in-out;
+				transition-property: transform;
+				
+				}
+
+			.media:hover{
+				transform: translate(0,-200px) ;
+			}
+			
+			.social a{display: block;
+				width: 100%;
+				opacity: 1;
+				margin: 5px;
+				padding: 10px;}
+			
+
+
+			.social i{
+				left: 51px;
+				color: #000000;
+				font-size:30px;
+				width: 30px;
+				height: 30px;}
+			#seta{color: #ffffff}
+
+
+
+			@media screen and (min-width: 1024px) and (max-width: 1332px){
+				.nav{width: 256px}
+				#autorretrato{width: 31.01%; left: 40%; top: 15%}
+				#Apresentação{width: 28.38%; left: 10.36%;font: lighter 35px/44px Akzidenz-Grotesk BQ with;}
+				.idiomas{top: 41px; left:10.36%;}
+			
+			}
+						@media screen and (min-width: 769px) and (max-width: 1023px){
+				.nav{width: 196.61px;}
+				#assinatura{right: 97.54px;width: 92px; top:306.80px}
+				.menu a{right: 20px; margin: 0 40px}
+				#autorretrato{width: 40.01%;left: 33%; top: 20%}
+				#Apresentação{width: 28.38%; left: 10.36%;font: lighter 26px/35px Akzidenz-Grotesk BQ with;left: 7.36%;}
+				.social{left: 6.36%}
+				.idiomas{left: 7.36%; top: 41px;}
+			
+			}
+
+			@media screen and (min-width: 600px) and (max-width: 768px)
+				{.nav{width: 177.60px}
+				.menu a{font: bold normal 19px/19px Akzidenz-Grotesk BQ Extra Conde;margin: 0 31px;line-height: 27px;}
+				#assinatura{right: 82.23px; width: 87px; top:322.30px;}
+				#Apresentação{width: 28.38%;left: 8.36%;font: lighter 22px/31px Akzidenz-Grotesk BQ with; top: 19%}
+				#autorretrato{width: 41.01%; left:27%; top:35%; }
+				.idiomas{left: 8.36%; top: 31px;}
+				.social{left: 7.36%}
+			}
+
+			@media screen and (min-width: 501px) and (max-width: 599px)
+			{.nav{width: 147.60px}
+			.menu a{font: bold normal 19px/19px Akzidenz-Grotesk BQ Extra Conde; line-height: 27px;margin: 0 26px;}
+				#assinatura{right: 57.11px;width: 79px;top: 349.10px}
+				#Apresentação{width: 30.38%;left: 8.36%;font: lighter 19px/28px Akzidenz-Grotesk BQ with; top: 17%}
+				#autorretrato{width: 51.01%; left:22%; top:37%; }
+				.idiomas{left: 8.36%; top:31px;}
+				.social{left: 7.36%}
+			}
+
+			@media screen and (max-width:500px)
+			{#assinatura{position: fixed;
+					right: 11px;
+					top: 90px;
+					width: 20%}
+				.social{
+					left: 20px;
+					top: }
+
+				.media{}
+				.social a i{left: 41px;}
+				#Apresentação{width: 28.38%;left: 10.36%;font: lighter 15px/24px Akzidenz-Grotesk BQ with; display: none;}
+				#autorretrato{width: 80%; left: 15px;top: 140px;}
+			
+			label{display: block;
+				align-content: right;
+				right: 5%;
+				color: #909090}
+			.nav{width: 100%; background: #fff;}
+
+			.menu{
+			 text-align: center;
+			 display: none;
+			 padding-top: 70px;
+			 }
+			.menu a { display: block;
+				font: bold normal 22px/22px Akzidenz-Grotesk BQ Extra Conde;
+				background: #ffffff;
+			border-bottom: 1px solid #ffffff;
+			margin:0;
+			line-height: 70px;
+			 }
+			.satiras{padding-top: 55px;}
+			#toggle{background: #ffffff;}
+
+			#toggle:checked + .menu{
+				display: block;}
+
+			.idiomas{position: fixed;text-align: right;right: 10%;top:515px; }
+		}
+		
+		

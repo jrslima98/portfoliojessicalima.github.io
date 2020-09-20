@@ -1,0 +1,256 @@
+/*header style*/
+			.nav{position: fixed;
+			text-align: right;
+			height: 14px;
+			line-height: 14px;
+			right: 0px;
+			top: 0px;
+			width: 256px;
+			
+		}
+		.menu{	color: #707070;
+				box-shadow: -1px 2px 30px;
+				padding-top: 46px;
+				margin: 0;height: 600px;
+					background: #ffffff;
+			}
+
+		.menu a{ display: block;
+			font: bold normal 20px/20px Akzidenz-Grotesk BQ Extra Conde;
+				letter-spacing: 0px;
+				color: #000000BF;
+				opacity: 1;
+				text-decoration: none;
+				line-height: 28px;
+				margin: 0 57px;
+				clear: right;
+		}
+
+
+		label{ margin:0 40px 0 0;
+		font-size: 26px;
+		line-height: 70px;
+		display: none;
+		width: 26px;
+		float: right;
+		
+		}
+
+		#assinatura{
+				position: fixed;
+				top: 290px;
+				right: 127px;
+				width: 100px;}
+
+
+		#toggle {display: none;}
+
+		.satiras{padding-top: 22px;}
+			
+			
+			
+
+			/*body style*/
+
+			.containeridentidade{position: absolute;
+				top: 0;
+				left: 0;
+				width: 35.15625vw;
+				height:55.36332179930796vh;
+				display: block;
+				margin: 41px;}
+
+			.identidade{display: block;
+				width: 35.15625vw;}
+
+			.overlayidentidade{position:absolute;
+				transition: all 0.3s ease;
+				opacity: 0;
+				background:#000000;}
+
+			.containeridentidade:hover .overlayidentidade{opacity: 0.9;}
+
+			.textidentidade{position: absolute;
+				top: 50%;
+				left: 50%;
+				color: #ffffff;
+				text-align: center;
+				font: Bold 20px/20px Akzidenz-Grotesk BQ Extra Conde;
+				letter-spacing: 0px;
+				transform: translate(-50%, -50%);
+			}
+			.overlayidentidadeleft{
+				height: 25.36332179930796vw;
+				width: 100%;
+				top:0;
+				left:0; 
+				background: #000000;
+			}
+			.containeridentidade:hover .overlayidentidadeleft{
+				width: 100%;}
+
+
+
+			
+
+
+
+			.containercomp{position: absolute;
+				width: 31.25vw;
+				height:  98.6159169550173vh;
+				top: 41px;
+				left: 42.265625vw;
+				display: block;
+				margin-bottom: 41px;}
+
+			.composição{display: block;
+				width:31.25vw;}
+
+			.overlaycomp{position: absolute;
+				transition: all 0.3s ease;
+				opacity: 0;
+				background:#000000;}
+
+			.containercomp:hover .overlaycomp{opacity: 0.9;}
+
+			.textcomp{position: absolute;
+				top: 50%;
+				left: 50%;
+				color: #ffffff;
+				text-align: center;
+				font: Bold 20px/20px Akzidenz-Grotesk BQ Extra Conde;
+				letter-spacing: 0px;
+				transform: translate(-50%, -50%);
+			}
+			.overlaycompleft{
+				height: 45.6159169550173vw;
+				width: 100%;
+				top:0;
+				left:0; 
+				background: #000000;
+			}
+			.containercomp:hover .overlaycompleft{
+				width: 100%;
+			}
+		
+	
+
+			/* footer style*/
+
+			.social{
+				position: fixed;
+				left: 41px;
+				bottom: 0px;
+				height: 300px;
+				display: flex;
+				transform: translate(0,250px);
+
+			}
+
+			.media{
+				color: #000000;
+				background: #ffffff;
+				font-size: 20px;
+				text-decoration: none;
+				
+				height: 300px;
+				border-radius:50px;
+				box-shadow:  -1px 2px 10px;
+				transition: 1s ease-in-out;
+				transition-property: transform;
+				}
+
+			.media:hover{
+				transform: translate(0,-200px) ;
+			}
+			
+			.social a{display: block;
+				opacity: ;
+				margin: 5px;
+				padding: 10px;}
+			
+
+
+			.social i{
+				left: 51px;
+				color: #909090;
+				font-size:30px;
+				width: 30px;
+				height: 30px;}
+			
+			.social i:hover{
+				color: #000000;
+			}
+
+			@media screen and (min-width: 1024px) and (max-width: 1332px){
+				.nav{width: 256px}
+				.textreflexion{font:Bold 20px/20px Akzidenz-Grotesk BQ Extra Conde;}	
+				.textoff{font:Bold 20px/20px Akzidenz-Grotesk BQ Extra Conde;}	
+				.textstopmotion{font:Bold 20px/20px Akzidenz-Grotesk BQ Extra Conde;}
+
+
+			}
+				
+				@media screen and (min-width: 769px) and (max-width: 1024px){
+				.nav{width: 196.61px;}
+				#assinatura{right: 97.54px;width: 92px; top:306.80px;}
+				.menu a{right: 20px; margin: 0 40px;}
+				.textreflexion{font:Bold 16px/16px Akzidenz-Grotesk BQ Extra Conde;}	
+				.textoff{font:Bold 16px/16px Akzidenz-Grotesk BQ Extra Conde;}	
+				.textstopmotion{font:Bold 16px/16px Akzidenz-Grotesk BQ Extra Conde;}
+				}
+
+			
+
+			@media screen and (min-width: 600px) and (max-width: 769px){
+				.nav{width: 177.60px}
+				.menu a{font: bold normal 19px/19px Akzidenz-Grotesk BQ Extra Conde;margin: 0 31px;line-height: 27px;}
+				#assinatura{right: 82.23px; width: 87px; top:322.30px;}	
+				.textidentidade{font:Bold 18px/18px Akzidenz-Grotesk BQ Extra Conde;}	
+				.textcomp{font:Bold 18px/18px Akzidenz-Grotesk BQ Extra Conde;}	
+				.containeridentidade{width: 58.15625vw;}
+			.identidade{width: 58.15625vw;}
+			.overlayidentidadeleft{height: 52.36332179930796vw;}
+
+					.containercomp{width: 58.25vw;left: 41px;top:69vw }
+				.composição{width: 58.25vw}
+				.overlaycompleft{height: 81.6159169550173vw;}
+			}
+
+			@media screen and (min-width: 501px) and (max-width: 600px)
+			{.nav{width: 147.60px}
+			.menu a{font: bold normal 19px/19px Akzidenz-Grotesk BQ Extra Conde; line-height: 27px;margin: 0 26px;}
+				#assinatura{right: 57.11px;width: 79px;top: 349.10px}	
+				.textidentidade{font:Bold 18px/18px Akzidenz-Grotesk BQ Extra Conde;}	
+				.textcomp{font:Bold 18px/18px Akzidenz-Grotesk BQ Extra Conde;}	
+				
+				.containeridentidade{width: 56.15625vw;}
+			.identidade{width: 56.15625vw;}
+			.overlayidentidadeleft{height: 48.36332179930796vw;}
+
+					.containercomp{width: 56.25vw;left: 41px;top:65vw }
+				.composição{width: 56.25vw}
+				.overlaycompleft{height: 78.6159169550173vw;}
+			}
+
+			@media screen and (max-width:500px){
+				#assinatura{position: fixed;right: 5%;top: 70px;width: 20%}
+			
+			label{display: block;align-content: right;right: 5%;color: #909090}
+			.nav{width: 100%}
+			.menu{ text-align: center; display: none; padding-top: 70px; }
+			.menu a { display: block;font: bold normal 22px/22px Akzidenz-Grotesk BQ Extra Conde;background: #ffffff;border-bottom: 1px solid #ffffff;margin:0;line-height: 70px; }
+			.satiras{padding-top: 55px}
+			#toggle:checked + .menu{display: block;}
+			.textidentidade{font:Bold 18px/18px Akzidenz-Grotesk BQ Extra Conde;}	
+				.textcomp{font:Bold 18px/18px Akzidenz-Grotesk BQ Extra Conde;}	
+			.containeridentidade{width: 60.15625vw;}
+			.identidade{width: 60.15625vw;}
+			.overlayidentidadeleft{height: 52.36332179930796vw;}
+
+					.containercomp{width: 60.25vw;left: 41px;top:69vw }
+				.composição{width: 60.25vw}
+				.overlaycompleft{height: 84.6159169550173vw;}
+			
+		}
+
